@@ -1,0 +1,68 @@
+body{
+    background-color:#2c3e50;
+}
+  
+.btn {
+    cursor : pointer;
+}
+
+h1, h4, form {
+    color : #ffffff;
+    text-align: center;
+    align-content: center;
+}
+
+h1 {
+    margin-top: 20%;
+    margin-bottom: 20px;
+    font-size: 90px;
+}
+
+h4 {
+    font-size: 40px;
+    margin: 30px 0 30px 0;
+}
+
+ul {
+    font-size: 20px;
+    color : #ffffff;
+    display: table;
+    margin-left: 42%;
+    margin-right: auto;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.clicked {
+    color : #7f8c8d;
+}
+
+.form,
+.greeting {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
